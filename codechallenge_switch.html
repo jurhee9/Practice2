@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script>
+    function getMembershipPerks(mLevel) {
+        /* Your switch statement should be written below this line.*/
+          switch(mLevel) {
+          case 'gold':
+            console.log('Unlimited Free Plays');
+          case 'silver':
+            console.log('VIP Room Access');
+            break;
+          case 'bronze':
+            console.log('VIP Room Access on Weekdays');
+            break;
+          default:
+            console.log('Invalid membership level');
+        }  
+        }
+        
+        getMembershipPerks('gold');
+        getMembershipPerks('silver');
+        getMembershipPerks('bronze');
+        getMembershipPerks('black');
+        }
+        
+        getMembershipPerks('gold');
+    </script>
+    </body>
+    </html>
